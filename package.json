@@ -16,7 +16,17 @@
   },
   "homepage": "https://github.com/nateloeffel/BaseDiscordBot#readme",
   "dependencies": {
-    "discord.js": "^14.14.1",
-    "dotenv": "^16.3.1"
+    "croner": "8.0.0",
+    "dayjs": "1.11.10",
+    "discord.js": "14.14.1",
+    "dotenv": "16.3.1",
+    "zod": "3.22.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3",
+    "@types/node": "20.11.5",
+    "tsup": "8.0.1",
+    "tsx": "4.7.0",
+    "typescript": "5.3.3"
   }
 }
