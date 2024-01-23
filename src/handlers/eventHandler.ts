@@ -4,6 +4,7 @@ import { getAllFiles } from '../utils/getAllFiles'
 
 export async function eventHandler(client: Client) {
 	const eventFiles = getAllFiles(path.join(__dirname, '../events'))
+
 	for (const eventFile of eventFiles) {
 		const { default: event } = await import(eventFile)
 

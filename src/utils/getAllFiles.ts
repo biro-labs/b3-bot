@@ -3,6 +3,7 @@ import path from 'node:path'
 
 export function getAllFiles(directory: string) {
 	const fileNames: string[] = []
+  
 	const files = fs.readdirSync(directory, { withFileTypes: true })
 
 	for (const file of files) {

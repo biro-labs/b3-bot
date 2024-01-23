@@ -1,32 +1,30 @@
 {
-  "name": "basebot",
-  "version": "1.0.0",
-  "description": "Base discord bot.",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nateloeffel/BaseDiscordBot/issues"
-  },
-  "homepage": "https://github.com/nateloeffel/BaseDiscordBot#readme",
-  "dependencies": {
-    "croner": "8.0.0",
-    "dayjs": "1.11.10",
-    "discord.js": "14.14.1",
-    "dotenv": "16.3.1",
-    "zod": "3.22.4"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.5.3",
-    "@types/node": "20.11.5",
-    "tsup": "8.0.1",
-    "tsx": "4.7.0",
-    "typescript": "5.3.3"
-  }
+	"name": "b3-bot",
+	"version": "1.0.0",
+	"description": "Discord bot for Dicasdobiro server.",
+	"main": "main.ts",
+	"scripts": {
+		"dev": "tsx --watch src/main.ts",
+		"build": "tsc --build",
+		"start": "node dist/src/main.js"
+	},
+	"repository": {
+		"type": "git"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"croner": "8.0.0",
+		"dayjs": "1.11.10",
+		"discord.js": "14.14.1",
+		"dotenv": "16.3.1",
+		"zod": "3.22.4"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.5.3",
+		"@types/node": "20.11.5",
+		"tsup": "8.0.1",
+		"tsx": "4.7.0",
+		"typescript": "5.3.3"
+	}
 }
