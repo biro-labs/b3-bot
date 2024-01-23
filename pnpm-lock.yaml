@@ -6,36 +6,36 @@ settings:
 
 dependencies:
   croner:
-    specifier: ^8.0.0
+    specifier: 8.0.0
     version: 8.0.0
   dayjs:
-    specifier: ^1.11.10
+    specifier: 1.11.10
     version: 1.11.10
   discord.js:
-    specifier: ^14.14.1
+    specifier: 14.14.1
     version: 14.14.1
   dotenv:
-    specifier: ^16.3.1
-    version: 16.3.2
+    specifier: 16.3.1
+    version: 16.3.1
   zod:
-    specifier: ^3.22.4
+    specifier: 3.22.4
     version: 3.22.4
 
 devDependencies:
   '@biomejs/biome':
-    specifier: ^1.5.3
+    specifier: 1.5.3
     version: 1.5.3
   '@types/node':
-    specifier: ^20.11.5
+    specifier: 20.11.5
     version: 20.11.5
   tsup:
-    specifier: ^8.0.1
+    specifier: 8.0.1
     version: 8.0.1(typescript@5.3.3)
   tsx:
-    specifier: ^4.7.0
+    specifier: 4.7.0
     version: 4.7.0
   typescript:
-    specifier: ^5.3.3
+    specifier: 5.3.3
     version: 5.3.3
 
 packages:
@@ -791,8 +791,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /dotenv@16.3.2:
-    resolution: {integrity: sha512-HTlk5nmhkm8F6JcdXvHIzaorzCoziNQT9mGxLPVXW8wJF1TiGSL60ZGB4gHWabHOaMmWmhvk2/lPHfnBiT78AQ==}
+  /dotenv@16.3.1:
+    resolution: {integrity: sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==}
     engines: {node: '>=12'}
     dev: false
 
