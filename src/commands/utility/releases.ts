@@ -83,7 +83,7 @@ const releasesCommand = {
 					// })
 
 					const formattedBody =
-						lastRelease.body.length >= 4000
+						lastRelease.body.length >= 1800
 							? `${lastRelease.body.substring(0, 1800)}...`
 							: lastRelease.body
 

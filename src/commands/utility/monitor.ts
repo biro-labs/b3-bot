@@ -90,7 +90,7 @@ const monitorCommand = {
 
 		let formattedBody = lastRelease.body
 
-		if (lastRelease.body.length >= 4000) {
+		if (lastRelease.body.length >= 1800) {
 			formattedBody = `${lastRelease.body.substring(0, 1800)}...`
 		}
 
